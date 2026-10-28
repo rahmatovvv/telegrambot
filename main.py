@@ -10,8 +10,7 @@ import yt_dlp
 from aiogram import Bot, Dispatcher, F
 from aiogram.filters import CommandStart
 from aiogram.types import FSInputFile, Message
-
-BOT_TOKEN = os.getenv("8687248703:AAH0WGwWdvQLt52OJ813PprhjSQ92LDTzrQ")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 COOKIES_FILE = os.getenv("COOKIES_FILE")  # ixtiyoriy: Instagram uchun cookies.txt
 MAX_SIZE = 50 * 1024 * 1024  # Telegram Bot API limiti: 50 MB
 
